@@ -1,1 +1,46 @@
+# PROXY (代理列表) - 已更新
 
+# IP-ASN
+IP-ASN,20473
+
+# IP-CIDR
+IP-CIDR,24.199.123.28/32
+IP-CIDR,64.23.132.171/32
+
+# DOMAIN-KEYWORD (最高优先级)
+DOMAIN-KEYWORD,openai
+
+# DOMAIN-REGEX (新增类型)
+DOMAIN-REGEX,^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
+
+# DOMAIN-SUFFIX (按字母排序)
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,api.statsig.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,chat.com                  # <-- 新增
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,sora.com                  # <-- 新增
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,turn.livekit.cloud
+
+# DOMAIN
+DOMAIN,static.cloudflareinsights.com
+# REJECT (屏蔽列表) - 按字母排序
+
+DOMAIN-SUFFIX,mixpanel.com,REJECT
+DOMAIN,browser-intake-datadoghq.com,REJECT
+DOMAIN,events.statsigapi.net,REJECT
+DOMAIN,o33249.ingest.sentry.io,REJECT
