@@ -1,4 +1,3 @@
-# PROXY (代理列表) - 已更新
 
 # IP-ASN
 IP-ASN,20473
@@ -9,9 +8,6 @@ IP-CIDR,64.23.132.171/32
 
 # DOMAIN-KEYWORD (最高优先级)
 DOMAIN-KEYWORD,openai
-
-# DOMAIN-REGEX (新增类型)
-DOMAIN-REGEX,^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
 
 # DOMAIN-SUFFIX (按字母排序)
 DOMAIN-SUFFIX,ai.com
