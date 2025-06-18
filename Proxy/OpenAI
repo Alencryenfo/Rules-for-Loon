@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,chat.com                  # <-- 新增
+DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,client-api.arkoselabs.com
@@ -32,15 +32,9 @@ DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,observeit.net
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,sora.com                  # <-- 新增
+DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,turn.livekit.cloud
 
 # DOMAIN
 DOMAIN,static.cloudflareinsights.com
-# REJECT (屏蔽列表) - 按字母排序
-
-DOMAIN-SUFFIX,mixpanel.com,REJECT
-DOMAIN,browser-intake-datadoghq.com,REJECT
-DOMAIN,events.statsigapi.net,REJECT
-DOMAIN,o33249.ingest.sentry.io,REJECT
